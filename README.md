@@ -1,15 +1,10 @@
 ## Big Button
 Welcome to your custom rework of an old idea. This button has some details you should know about. 
 
-## Images
-[Demo Video](Media/DemoVideo.mp4)
-
-
-<img src="Media/LEDTest.JPG" alt="light test" width="300"/>
-<img src="Media/Brains.JPG" alt="brains" width="300"/>
-<img src="Media/Inside1.JPG" alt="indise 1" width="300"/>
-<img src="Media/Inside2.JPG" alt="inside 2" width="300"/>
-
+|[Demo Video](Media/DemoVideo.mp4)|What's Inside|
+| --- | --- |
+| <img src="Media/LEDTest.JPG" alt="light test" width="300"/>|<img src="Media/Inside1.JPG" alt="indise 1" width="300"/>|
+| <img src="Media/Brains.JPG" alt="brains" width="300"/>|<img src="Media/Inside2.JPG" alt="inside 2" width="300"/>|
 
 ## Settings
 To access the settings you will need to join the WiFi network hosted by the button. The network is **active for 10 mintues** after power up. After that, it is shut down to save batteries. Once on the network use a computer or mobile device to view the following URL.
