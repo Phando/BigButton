@@ -46,27 +46,27 @@ String getRadio(String section, int row, String label, int value)
 
 String getForm()
 {
-  String pageText = "<!DOCTYPE HTML><html><head><title>Salesforce Button</title>\
+  String pageText = "<!DOCTYPE HTML><html><head><title>Big Button</title>\
   <meta name='viewport' content='width=device-width, initial-scale=1'>\
   </head><body style='font-family: Arial;font-size:18px;'>\
-  <h3 style='color:#17A0DB;'>Salesforce Button Settings</h3>\
-  <form action='/get'><p>Idle Display:</p>";
+  <h3 style='color:#17A0DB;'>Big Button Settings</h3>\
+  <form action='/get'><b>Lighting:</b><br>";
 
   for (int i = 0; i < (sizeof(restModes) / sizeof(restModes[0])); i++)
   {
     pageText = pageText + getRadio(modeKey, i, restModes[i], LEDMan.patternIndex);
   }
 
-  pageText = pageText + "<input type='range' id='bKey' name='bKey' min='5' max='255' value='"+ LEDMan.brightness +"'><label for='bKey'>Brightness</label><hr><p>Audio:</p>";
+  pageText = pageText + "<input type='range' id='bKey' name='bKey' min='5' max='255' value='"+ LEDMan.brightness +"'><label for='bKey'>Brightness</label><hr><b>Audio:</b><br>";
 
   for (int i = 0; i < (sizeof(audioTracks) / sizeof(audioTracks[0])); i++)
   {
     pageText = pageText + getRadio(audioKey, i, audioTracks[i], AudioMan.trackIndex);
   }
 
-  return pageText + "<input type='range' id='vKey' name='vKey' min='1' max='30' value='"+ AudioMan.getVolume() +"'><label for='vKey'>Volume</label><br>\
-  <input type='submit' value='Save' style='font-size:18px;'>\
-  <a href='https://drive.google.com/drive/u/0/folders/11SwEiP9ogV3En5YXebt4sRtIhk40-01y?usp=sharing'>more info</a></form></body></html>";
+  return pageText + "<input type='range' id='vKey' name='vKey' min='1' max='30' value='"+ AudioMan.getVolume() +"'><label for='vKey'>Volume</label><hr>\
+  <input type='submit' value='Save' style='font-size:18px;'><br><br>\
+  <a href='https://github.com/Phando/BigButton'>github.com/Phando/BigButton</a></form></body></html>";
 }
 
 void saveInput(AsyncWebServerRequest *request, String key)
