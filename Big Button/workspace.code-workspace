@@ -1,0 +1,52 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ESPUtils"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp",
+			"string": "cpp",
+			"__locale": "cpp",
+			"ios": "cpp",
+			"__bit_reference": "cpp",
+			"__functional_base": "cpp",
+			"__node_handle": "cpp",
+			"algorithm": "cpp",
+			"atomic": "cpp",
+			"bitset": "cpp",
+			"chrono": "cpp",
+			"deque": "cpp",
+			"__memory": "cpp",
+			"filesystem": "cpp",
+			"functional": "cpp",
+			"iterator": "cpp",
+			"limits": "cpp",
+			"locale": "cpp",
+			"memory": "cpp",
+			"optional": "cpp",
+			"random": "cpp",
+			"ratio": "cpp",
+			"regex": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"vector": "cpp",
+			"array": "cpp",
+			"utility": "cpp",
+			"__hash_table": "cpp",
+			"__split_buffer": "cpp",
+			"__tree": "cpp",
+			"initializer_list": "cpp",
+			"map": "cpp",
+			"string_view": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"cstddef": "cpp"
+		}
+	}
+}
